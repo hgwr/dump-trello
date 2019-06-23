@@ -31,3 +31,9 @@ https://trello.com/1/token/approve まですすんで、トークン文字列を
 
 リストごと、カードごと、コメントごとの JSON がダンプされます。
 
+## ボードの Markdown ダンプ
+
+上で取得したボード ID を使ってボードを指定して、 Markdown ダンプを得ます。
+
+    $ bundle exec ruby dump-trello-md.rb XXXX_BOARD_ID_XXXX
+
