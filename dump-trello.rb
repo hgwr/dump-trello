@@ -33,7 +33,6 @@ lists.each do |list|
     comments_json = card.client.get("/cards/#{card.id}/actions", filter: "commentCard")
     comments = JSON.parse(comments_json)
     comments.each do |comment|
-      print(".")
       comment_data.push({
                           source: 'Trello',
                           original_id: comment["id"],
