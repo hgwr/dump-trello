@@ -42,5 +42,5 @@ yarn-debug.log*
 /public/coverage
 /public/system
 
-/config/nrr_config.yml
-/config/sunspot.yml
+config.yml
+
