@@ -20,7 +20,7 @@ board = Trello::Board.find(board_id)
 
 lists = board.lists
 lists.each do |list|
-  puts '#' + "#{list.name}"
+  puts '# ' + "#{list.name}"
   puts ""
   cards = list.cards
   cards.each do |card|
